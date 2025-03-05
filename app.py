@@ -412,7 +412,8 @@ with ui.nav_panel("Сеть", icon=icon_svg('circle-nodes')):
                             node_color="community",
                             hide_edges_on_move=True,
                             edge_size='weight',
-                            node_border_color_from='node'
+                            node_border_color_from='node',
+                            hide_info_panel=True
                         )
 
         # Панель для одномодального (семантического) графа
@@ -489,7 +490,8 @@ with ui.nav_panel("Сеть", icon=icon_svg('circle-nodes')):
                             node_color="community",
                             hide_edges_on_move=True,
                             edge_size='weight',
-                            node_border_color_from='node'
+                            node_border_color_from='node',
+                            hide_info_panel=True
                         )
         # --- Панель "Сеть" (уже существующая часть, включающая предыдущие подпанели) ---
         with ui.nav_panel("Многоуровневый граф"):
@@ -579,7 +581,8 @@ with ui.nav_panel("Сеть", icon=icon_svg('circle-nodes')):
                             node_color="community",
                             hide_edges_on_move=True,
                             edge_size='weight',
-                            node_border_color_from='node'
+                            node_border_color_from='node',
+                            hide_info_panel=True
                         )
 
 
